@@ -1,2 +1,214 @@
 # html.index
-W2
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>YefsaTech | IT Solutions</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            color: #222;
+        }
+
+        header {
+            background-color: #111827;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #0f172a;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #38bdf8;
+            color: #111827;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .services {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: white;
+            padding: 25px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #0f172a;
+        }
+
+        footer {
+            background-color: #111827;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>YefsaTech</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <section class="hero" id="home">
+
+        <h2>Welcome to YefsaTech</h2>
+
+        <p>
+            Simple, reliable and affordable IT solutions.
+        </p>
+
+        <a href="#services" class="button">
+            Our Services
+        </a>
+
+    </section>
+
+
+    <section id="about">
+
+        <h2>About YefsaTech</h2>
+
+        <p>
+            YefsaTech is an IT-focused business providing digital
+            solutions, technical support and creative services.
+            Our goal is to make technology simple and accessible.
+        </p>
+
+    </section>
+
+
+    <section id="services">
+
+        <h2>Our Services</h2>
+
+        <div class="services">
+
+            <div class="card">
+                <h3>Web Design</h3>
+                <p>
+                    We create simple and professional websites
+                    for individuals and businesses.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>IT Support</h3>
+                <p>
+                    Help with computer, software and other
+                    technology-related problems.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Document Services</h3>
+                <p>
+                    Typing, editing, formatting and preparation
+                    of professional documents.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>
+            📧 Email: keithyefsa49@gmail.com
+        </p>
+
+        <p>
+            📱 Phone: +256 768 455 067
+        </p>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            © 2026 YefsaTech. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
