@@ -1,5 +1,4 @@
-# html.index
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -195,7 +194,8 @@
         </p>
 
         <p>
-            📱 Phone: +256 768 455 067
+            📱 Phone: +256 768 455 067<b>
+                       +256 746 493 603 
         </p>
 
     </section>
